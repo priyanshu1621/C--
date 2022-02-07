@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+char n1 ,n2;
+
+ cout<<"Enter the String"<<endl;
+ cin>>n1;
+
+cout<<"Enter the Second String";
+cin>>n2;
+
+char temp = n1;
+
+n2= n1;
+n1= temp;
+
+cout<<n1<<endl;
+cout<<n2;
+}
